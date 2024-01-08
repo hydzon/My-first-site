@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+a{
+    color: #be28ff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #928dcd;
+}
+
+a:active{
+    color: #7037ff;
+}
+
+a:visited{
+    color: #c133fe;
+}
+
+body{
+    background: #eee;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding-top: 0;
+    font-family: 'Manrope', 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: normal;    
+}
+
+/* .header{
+    position: fixed;
+    top: 0;
+    max-width: 900px;
+} */
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.header ul li:last-child{
+    color: #697387;
+    margin-left: auto; 
+    font-size: 13px;
+}
+
+.info{ 
+    /* margin-top: 70px;    */
+    display: flex;    
+} 
+
+.info-text{ 
+    width: 100%; 
+    margin-top: 20px;
+    margin-left: 20px;     
+}
+
+.info-text p{  
+    margin: 0;    
+}
+
+.info-photo{
+    margin-top: 20px;
+    
+} 
+
+.avatar{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25);
+}
+
+.info-text p{
+    font-style: italic;
+    color: rgb(69, 69, 69);
+}
+
+.card{
+    border: none;
+    border-radius: 20px;    
+    padding: 15px 40px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;       
+}
+
+.bg-card{
+    background: rgb(255, 255, 255);
+}
+
+
+.btn{
+    background-color: #be28ff;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover{
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+}
+
+.btn:active{
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    
+}
+
+.table td{
+    padding: 1px;
+    padding-left: 10px;
+    border: 1px solid #be28ff;
+}
+
+.form h3{
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-row{
+    margin-bottom: 20px;
+    display: flex;    
+}
+
+.form-row .form-group{
+    /* display: inline-block; */
+    margin-right: 10px;
+    width: 50%;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    columns: #000;
+    font-family: inherit;
+}
+
+
+.footer{    
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul{ 
+    margin: auto; 
+    padding: 0;
+    list-style: none;
+    color: #697387;
+    font-size: 13px;
+}
+

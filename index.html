@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portfolio, cutaway">
+    <meta name="description" content="website - cutaway, html and css training">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li><img width="50px" src="img_HTML.png" alt=""></li>
+                <li><img width="50px" src="img_CSS.png" alt=""></li>
+                <li>Страничка с краткой информацией обо мне.</li>
+            </ul>            
+        </div>        
+        <div class="info card bg-card">
+            <div class="info-photo">
+                <img src="my_photo.jpg" alt="my photo" class="avatar">            
+            </div> 
+            <div class="info-text">         
+                <hr size="3" width="auto" color="#be28ff" noshade="" align="left">
+                <h2>Левчук Сергей</h2>
+                <hr size="3" width="auto" color="#be28ff" noshade="" align="left">
+                <p>Эта моя страница, создана во время обучения <strong>HTML</strong> & <strong>CSS</strong>.</p>                
+                <p>Пока получается вот так.</p>
+            </div>
+        </div>
+        <div class=" card bg-card">
+            <h3>Социальные сети:</h3>
+            <a href="https://telegram.me/hydzon" target="_blank">Telegram</a> |  
+            <a href="https://vk.com/hydzon" target="_blank">ВКонтакте</a> | 
+            <a href="https://github.com/hydzon" target="_blank">GitHab</a> | 
+            <a href="https://career.habr.com/hydzon" target="_blank">ХабрКарьера</a>            
+        </div>
+        <div class="learning card bg-card">
+            <h3>Освоены:</h3>
+            <ol>
+                <li>C++, C#</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>Начальные занания HTML, CSS</li>
+            </ol>
+        </div>
+        <div class="experience card bg-card">
+            <h3>Опыт работы:</h3>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>ООО «Инфосервис+»</td>
+                        <td>Инженер-программист</td>
+                        <td>июнь 2012 - апрель 2013</td>
+                    </tr>
+                    <tr>
+                        <td>ГУЗ «Краевой диагностический центр»</td>
+                        <td>Инженер-программист</td>
+                        <td>апрель 2013 - март 2015</td>
+                    </tr>
+                    <tr>
+                        <td>ФКУ «УФО МО РФ по Забайкальскому краю»</td>
+                        <td>Инженер по ОБИ</td>
+                        <td>март 2015 - август 2018</td>
+                    </tr>
+                    <tr>
+                        <td>ООО «Норникель – ОЦО»</td>
+                        <td>Главный специалист</td>
+                        <td>август 2018 - июль 2019</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "КИРБ"</td>
+                        <td>Начальник отдела</td>
+                        <td>июль 2019 - ноябрь 2022</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "Норникель – Сфера"</td>
+                        <td>Менеджер</td>
+                        <td>ноябрь 2022 - н.в.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="contact card bg-card">            
+            <form action="/" class="form">
+                <h3>Связаться со мной:</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Введите имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Введите e-mail:</label>
+                        <input type="email" id="email" placeholder="Введите e-mail">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mes">Введите сообщение:</label>
+                    <textarea name="" id="mes" cols="60" rows="10" placeholder="Введите сообщение..."></textarea>
+                </div>
+                <button type="submit" class="btn">Отправить!</button>
+            </form>         
+        </div>
+        <div class="footer">
+            <ul>
+                <hr>
+                <li>Страничка с краткой информацией обо мне.</li>
+            </ul>            
+        </div>
+    </div> 
+</body>
+</html>
